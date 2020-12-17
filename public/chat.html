@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div class="chat-main-box">
+                                <div class="chat-left-aside">
+                                    <div class="open-panel"><i class="ti-angle-right"></i></div>
+                                    <div>
+                                        <div class="form-material">
+                                            <input class="form-control p-20" type="text" placeholder="Buscar Contacto">
+                                        </div>
+                                        <ul class="chatonline style-none" id="divUsuarios"> </ul>
+                                    </div>
+                                </div>
+                                <div class="chat-right-aside">
+                                    <div class="chat-main-header">
+                                        <div>
+                                            <h3 class="box-title">Sala de chat <small>Video Juegos</small></h3>
+                                        </div>
+                                    </div>
+                                    <div class="chat-rbox">
+                                        <ul class="chat-list p-20" id="divChatbox">
+                                        </ul>
+                                    </div>
+                                    <div>
+
+                                        <form id="formEnviar">
+                                            <div>
+                                                <div>
+                                                    <input autocomplete="off" id="txtMensaje" placeholder="Escribe tu mensaje aquí" class="form-control b-0" autofocus>
+                                                </div>
+                                                <div>
+                                                    <button type="submit" class="btn btn-info btn-circle btn-lg"><i class="fa fa-paper-plane-o"></i> </button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                Super Chat - Fernando Herrera
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+
+    <script src="js/socket-chat-jquery.js"></script>
+
+    <script src="js/socket-chat.js"></script>
+
+</body>
+
+</html>
