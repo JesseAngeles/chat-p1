@@ -29,7 +29,7 @@
                                 <div class="chat-right-aside">
                                     <div class="chat-main-header">
                                         <div>
-                                            <h3 class="box-title">Sala de chat <small>Video Juegos</small></h3>
+                                            <h3 class="box-title">Sala de chat</h3>
                                         </div>
                                     </div>
                                     <div class="chat-rbox">
@@ -56,9 +56,6 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer">
-                Super Chat - Fernando Herrera
-            </footer>
         </div>
     </div>
 
