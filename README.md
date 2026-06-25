@@ -1,10 +1,16 @@
-# Notas:
+# Chat P1
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
+Primera práctica de chat en tiempo real utilizando Node.js y Socket.IO.
 
-Recuerden que deben de reconstruir los módulos de node con el comando
+## Tecnologías
 
-```
+- Node.js
+- Socket.IO
+- JavaScript
+
+## Ejecución
+
+```bash
 npm install
-nodemon server/server
+npm start
 ```
